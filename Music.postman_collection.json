@@ -12,7 +12,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/music/",
+					"raw": "http://127.0.0.1:8000/music/",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -22,7 +22,6 @@
 					],
 					"port": "8000",
 					"path": [
-						"api",
 						"music",
 						""
 					]
@@ -36,7 +35,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/music/12",
+					"raw": "http://127.0.0.1:8000/music/15",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -46,9 +45,8 @@
 					],
 					"port": "8000",
 					"path": [
-						"api",
 						"music",
-						"12"
+						"15"
 					]
 				}
 			},
@@ -69,7 +67,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/music/",
+					"raw": "http://127.0.0.1:8000/music/",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -79,7 +77,6 @@
 					],
 					"port": "8000",
 					"path": [
-						"api",
 						"music",
 						""
 					]
@@ -94,7 +91,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"title\": \"Make Room!!!!\",\n    \"artist\": \"My Chemical Romance\",\n    \"album\": \"Number Four\",\n    \"release_date\": \"2013-01-08\",\n    \"genre\": \"Alternative\"\n}",
+					"raw": "{\n    \"title\": \"Make Room!!!!\",\n    \"artist\": \"My Chemical Romance\",\n    \"album\": \"Number Four - Single\",\n    \"release_date\": \"2013-01-08\",\n    \"genre\": \"Alternative\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -102,7 +99,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/music/12/",
+					"raw": "http://127.0.0.1:8000/music/12/",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -112,7 +109,6 @@
 					],
 					"port": "8000",
 					"path": [
-						"api",
 						"music",
 						"12",
 						""
@@ -127,7 +123,7 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/music/7/",
+					"raw": "http://127.0.0.1:8000/music/7/",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -137,7 +133,6 @@
 					],
 					"port": "8000",
 					"path": [
-						"api",
 						"music",
 						"7",
 						""
