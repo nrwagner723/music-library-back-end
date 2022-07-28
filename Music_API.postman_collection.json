@@ -35,7 +35,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:8000/music/15",
+					"raw": "http://127.0.0.1:8000/music/12",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -46,7 +46,7 @@
 					"port": "8000",
 					"path": [
 						"music",
-						"15"
+						"12"
 					]
 				}
 			},
@@ -59,7 +59,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"title\": \"Seasons In The Sun\",\n    \"artist\": \"Terry Jacks\",\n    \"album\": \"Seasons In The Sun (Expanded Edition)\",\n    \"release_date\": \"1974-01-01\",\n    \"genre\": \"Rock\"\n}",
+					"raw": "{\n    \"title\": \"Seasons In The Sun\",\n    \"artist\": \"Terry Jacks\",\n    \"album\": \"Seasons In The Sun (Expanded Edition)\",\n    \"release_date\": \"1974-01-01\",\n    \"genre\": \"Rock\",\n    \"likes\": 0\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -91,7 +91,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"title\": \"Make Room!!!!\",\n    \"artist\": \"My Chemical Romance\",\n    \"album\": \"Number Four - Single\",\n    \"release_date\": \"2013-01-08\",\n    \"genre\": \"Alternative\"\n}",
+					"raw": "{\n    \"title\": \"Make Room!!!!\",\n    \"artist\": \"My Chemical Romance\",\n    \"album\": \"Number Four - Single\",\n    \"release_date\": \"2013-01-08\",\n    \"genre\": \"Alternative\",\n    \"likes\": 1\n}",
 					"options": {
 						"raw": {
 							"language": "json"
