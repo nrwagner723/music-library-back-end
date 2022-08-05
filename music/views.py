@@ -4,7 +4,6 @@ from rest_framework.response import Response
 from rest_framework import status
 from .serializers import MusicSerializer
 from .models import Music
-from music import serializers
 
 @api_view(['GET', 'POST'])
 def music_list(request):
